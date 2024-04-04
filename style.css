@@ -1,0 +1,71 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background: #000;
+    margin: 0;
+}
+
+.layout {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 560px;
+}
+
+.title {
+    font-size: 64px;
+    color: #fff;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+img {
+    width: 560px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.buttons {
+    margin-top: 24px;
+    display: inline-flex;
+}
+
+.buttons > div {
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.yes {
+    background: #fff;
+    color: #000;
+    transition: .1s;
+}
+
+.yes:hover {
+    background: #ffe1e1;
+    color: #7b5757;
+}
+
+.no {
+    
+    z-index: 999;
+    margin-left: 60px;
+    background: #ACACAC;
+    color: #fff;
+    transition: .1s;
+}
+
+.no:hover {
+    transition: .1s;
+    background: #3e3e3e;
+    color: #6b6b6b;
+}
